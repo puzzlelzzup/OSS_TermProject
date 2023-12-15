@@ -1,7 +1,6 @@
 # OSS_TermProject
 **Detect Crosswalk, Object(Human, Car)**  
-Find objects in the image(jpg) and mark them as boxes.
-  
+Find objects in the image(jpg) if a human and crosswalk overlap and mark them as box, output stop to the car.  
 ## Used (Version, Yolo package, Image size)
 1. python (3.12.0)  
 2. opencv (4.8.1.78)  
@@ -34,7 +33,7 @@ For each detected object
 Merge the boxes human and car
 
 ## Result
-Determine if a person and crosswalk overlap and output STOP to the car(green box overlap)
+Determine if a human and crosswalk overlap and output STOP to the car(green box overlap)
 ![result](https://github.com/puzzlelzzup/OSS_TermProject/assets/95035903/d0cce5c9-a888-49da-ba5e-fd823d665e11)  
 
 ## Image Source
