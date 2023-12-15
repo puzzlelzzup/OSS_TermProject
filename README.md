@@ -1,6 +1,8 @@
 # OSS_TermProject
 **Detect Crosswalk, Object(Human, Car)**  
 Find objects in the image(jpg) if a human and crosswalk overlap and mark them as box, output stop to the car.  
+**Final code file: overlap_and_stop.py**  
+
 ## Used (Version, Yolo package, Image size)
 1. python (3.12.0)  
 2. opencv (4.8.1.78)  
@@ -12,15 +14,19 @@ Yolo
 https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
 https://github.com/pjreddie/darknet/blob/master/data/coco.names***  
 
+Required install
+pip install (library)
+check: pip list
+
 ## Development Environment Settings (using guidelines)
 Two ways path setup:  
 i. Image and source code in the same folder  
   ```
-  python detect_crosswalk_human_car('walk_people.jpg')
+  img = cv2.imread('walk_people.jpg')
   ```  
 ii. A folder whatever named with source code and an image folder  
   ```
-python detect_crosswalk_human_car('./image/walk_people.jpg')  
+img = cv2.imread('./image/walk_people.jpg')  
   ```  
 ## Steps involved:
 Install python, opencv, numpy  
