@@ -14,9 +14,9 @@ Yolo
 https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
 https://github.com/pjreddie/darknet/blob/master/data/coco.names***  
 
-Required install
-pip install (library)
-check: pip list
+Required install  
+pip install (library)  
+check: pip list  
 
 ## Development Environment Settings (using guidelines)
 Two ways path setup:  
